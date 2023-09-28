@@ -149,10 +149,10 @@ body
 }
 .title2
 {
-    color:#003147;
+    color: #003147;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 p
 {
@@ -163,4 +163,74 @@ p
     display: flex;
     flex-direction: column;
     margin: 5px 0;
+}
+.about .box .year_company
+{
+    min-width: 50px;
+}
+.about .box .year_company h5
+{
+    text-transform: uppercase;
+    color: #003147;
+    margin-bottom: 1px;
+    font-weight: 650;
+}
+.about .box .text h4
+{
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.about .text p
+{
+    color: #333;
+    margin: 5px;
+    margin-inline: 10px;
+    max-width: fit-content;
+    margin-top: 1px;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+.skills .box
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .box h4
+{
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 500;
+}
+.skills .box .percent
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f8ff;
+}
+.skills .box .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #003147;
+}
+.interest ul
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.interest ul li
+{
+    list-style: none;
+    color:#333;
+    font-weight: 500;
+    margin: 10px 0;
 }
